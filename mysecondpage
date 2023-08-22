@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+        * {
+            font-family: montserrat;
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            box-shadow: 0px 20px 20px rgb(17, 28, 28);
+            background-color: rgb(169, 189, 189);
+            /* z-index: 1; */
+        }
+
+        .navbar-nav {
+            list-style: none;
+            padding: 20px 0px;
+            vertical-align: middle;
+        }
+
+        .nav-item {
+            display: inline-block;
+            color: rgb(46, 39, 52);
+            font-weight: bold;
+            margin: 0 50px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: gray;
+            font-weight: bold;
+
+        }
+
+        .nav-link:hover {
+            color: brown;
+        }
+
+        .article h1 {
+            font-size: 40px;
+        }
+
+        .content {
+            background: linear-gradient(gold, silver);
+            padding: 10px 80px;
+        }
+
+        .content>section {
+            margin: 60px 0px;
+        }
+        .lang-image img{
+            width: 300px;
+        }
+
+    
+
+        .float-right1 {
+
+            float: right;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .float-left {
+            float: left;
+            margin-right: 50px;
+            margin-bottom: 20px;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .content>section{
+            margin: 100px 0px;
+        }
+        .bot-icon img{
+            width: 100px;
+        }
+        .bot-icon{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">reference</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">docs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">blogs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- content -->
+    <main class="content">
+        <section>
+            <div class="lang-image float-right"><img src="250px-Taj_Mahal,_Agra,_India_edit3.jpg" alt="">
+            </div>
+            <article>
+                <h1>TAJ-MAHAL</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus blanditiis et itaque consequuntur,
+                    soluta nulla nihil aspernatur vel corporis obcaecati totam molestiae porro pariatur adipisci eos
+                    tempora id quasi sed? Hic ipsam a nam repudiandae quod assumenda dolorum? Soluta ab reiciendis,
+                    adipisci quae eos nobis sint quibusdam. Voluptatem nemo repudiandae, eaque totam nulla modi
+                    obcaecati incidunt ullam. Possimus laudantium accusantium magni recusandae sed atque repellat,
+                    voluptatum magnam officiis adipisci consectetur repellendus nisi? Vitae distinctio eaque aliquid
+                    aspernatur doloremque! Quis accusamus deleniti aliquid reprehenderit odio officiis iure quisquam at
+                    vitae eligendi, consequuntur est culpa quibusdam commodi! Consequuntur sed ducimus, placeat, vitae
+                    nobis harum repudiandae at magnam molestias beatae officia libero sunt nostrum corrupti amet
+                    voluptates quia quidem fugit quibusdam! Nulla corrupti amet voluptate consectetur ullam, sunt
+                    expedita repellat omnis libero doloremque deserunt laboriosam modi assumenda commodi illo aut dolore
+                    veniam, quibusdam vitae iste odit sapiente incidunt. Impedit laboriosam nisi eligendi, repudiandae
+                    officiis atque quis autem odit! Nulla saepe voluptate dolorem sit inventore aliquam odit iusto
+                    reprehenderit modi quisquam. Molestias placeat eum quisquam veniam, minus quibusdam quia odit non
+                    ipsa velit tempore. Asperiores consectetur quis quia et voluptatibus ad! Eaque sit nostrum
+                    consequuntur at dignissimos eligendi repudiandae quos debitis saepe perferendis necessitatibus
+                    eveniet, commodi consequatur ad maiores cupiditate tempore, asperiores qui quia veritatis? Quisquam,
+                    quaerat tempore, eius alias commodi eos expedita repellat assumenda sequi quam nesciunt. Accusantium
+                    optio obcaecati commodi. Doloremque aperiam rerum a quia officia vero nisi molestias eveniet, et
+                    blanditiis? Quam quae dignissimos unde, necessitatibus praesentium sit, voluptatum iure quos,
+                    perspiciatis magnam veritatis. Expedita suscipit sequi, corporis, illo sunt dignissimos minima nam
+                    sint officia enim alias molestias nihil assumenda ab amet voluptates dolor aspernatur, a dolore
+                    pariatur consectetur in unde. Sunt a eum quis autem neque animi dolore numquam ipsa incidunt
+                    perspiciatis, officiis accusamus veniam velit debitis nesciunt? Quisquam, sunt?</p>
+            </article>
+        </section>
+    </main>
+    <main class="content">
+        <section>
+            <div class="lang-image float-left"><img src="Agra_03-2016_10_Agra_Fort.jpg" alt="">
+            </div>
+            <article>
+                <h1>RED-FORT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus cupiditate ducimus
+                    perferendis, excepturi esse rem voluptatibus est vero quas pariatur, illo, dolorum possimus in modi.
+                    Ex nisi recusandae, magnam exercitationem ducimus quos repellendus nobis dolorem molestiae optio
+                    aut, quia nihil porro a architecto, dolores voluptate qui molestias dignissimos obcaecati. Odio iste
+                    dolore eum ipsum nisi, harum vero recusandae neque accusamus reprehenderit ab alias quia a at illum
+                    doloremque autem cumque necessitatibus animi facere non. Tempore, dolorum! Reiciendis aliquam
+                    deleniti et, ratione rem culpa harum vel. Eveniet, nobis ex laudantium enim vero non ipsam, nostrum
+                    laborum quis aut minima perferendis minus distinctio doloremque, earum ad sit corrupti? Deleniti ea
+                    velit veniam natus optio iusto nam reiciendis quo praesentium maiores ipsam vel mollitia, ullam, ad
+                    eum quam voluptatibus officiis numquam, odit iure? Quisquam, quis. Dignissimos vero nam, sed quis
+                    minus fugiat cupiditate eaque quo maxime soluta doloribus facere quaerat dolorum, aspernatur labore
+                    consequuntur est nulla amet, unde assumenda quos. Maxime sapiente ullam culpa. Eaque fuga tenetur
+                    nobis fugit quia minus neque repellendus commodi non suscipit voluptatem consequatur distinctio
+                    nesciunt ut, veritatis laboriosam error pariatur itaque amet, similique ipsa molestiae magnam
+                    veniam? Doloribus, quae harum tempore aperiam amet culpa ducimus ipsum voluptatum quaerat quia eum
+                    fugiat minima non tempora. Illum ab quaerat, facilis necessitatibus eos corrupti enim tempore, modi
+                    cupiditate, quae voluptate incidunt fugit! Commodi, numquam animi nemo at ea assumenda tenetur
+                    suscipit sed, facere totam quis tempore distinctio voluptate libero beatae? Distinctio, consectetur
+                    cupiditate. Aut consectetur provident quod sequi, enim vero laborum id delectus, rerum expedita
+                    dolores doloremque, facere totam! Suscipit animi, earum fugiat amet vitae numquam non sapiente
+                    deserunt ducimus ea mollitia id optio corrupti? Voluptates esse repudiandae cumque obcaecati
+                    deserunt accusamus atque mollitia iusto saepe, libero labore voluptate dolorem sed est repellat
+                    quidem quaerat ducimus nemo eos voluptatem. Pariatur.</p>
+            </article>
+        </section>
+    </main>
+    <main class="content">
+        <section>
+            <div class="lang-image float-right1">
+                <img src="WhatsApp Image 2023-08-20 at 17.34.29.jpg" alt="">
+            </div>
+            <article>
+                <h1>MY PICTURE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum numquam nemo sequi minus consectetur
+                    accusamus possimus commodi natus autem et a doloribus, architecto laborum incidunt. Sequi autem
+                    praesentium non distinctio beatae error impedit molestias neque cumque? Vitae id consequatur iure
+                    expedita ad labore, ut assumenda, natus nesciunt, tenetur iusto quo perferendis. Quibusdam beatae
+                    unde non quasi at dignissimos, quaerat voluptatem veniam iure repellat animi, accusantium aliquid
+                    minus nam nobis distinctio vel! Eos quasi id vitae quos pariatur maxime voluptatum, corrupti debitis
+                    temporibus illum asperiores est ut similique saepe obcaecati sed minima vero laboriosam voluptas
+                    impedit! Ipsa iste dolorem voluptatem totam odit quia molestias, incidunt a commodi, repellendus
+                    nisi harum. Dolor voluptatibus enim molestias dolore assumenda architecto ipsam et quisquam,
+                    adipisci exercitationem quae necessitatibus temporibus tenetur possimus, inventore saepe.
+                    Repellendus maxime sint aliquam architecto et cupiditate suscipit obcaecati repellat reiciendis ea,
+                    commodi quos quibusdam tenetur error temporibus deserunt fuga ut qui quas mollitia aperiam amet
+                    minima voluptatum? Molestiae dolorem, temporibus eaque et maxime, odio ducimus optio asperiores
+                    numquam rem nemo illum atque, dolores ratione corrupti ipsam labore. Expedita doloribus rem eum
+                    asperiores sapiente necessitatibus! Sit, est? Reprehenderit natus assumenda incidunt illo blanditiis
+                    soluta dicta, minima sint ex temporibus excepturi nobis a inventore rem expedita. Sequi veritatis
+                    fugit nam repellat nemo maxime ullam omnis eos? Tenetur provident voluptatem sint quis numquam error
+                    animi, aspernatur illo nulla doloribus enim, mollitia, cumque vero dicta officiis! Quibusdam
+                    inventore est sapiente laboriosam perspiciatis quia esse, perferendis officia unde similique,
+                    voluptatem fuga corrupti nihil rerum quidem tenetur nobis qui voluptates! Aliquid libero beatae illo
+                    consectetur quod nihil quis numquam perspiciatis quas iure, iste facilis maxime, autem accusamus,
+                    rerum voluptatem quos quae! Maxime, voluptas. Corporis, consectetur repudiandae soluta cupiditate
+                    aperiam voluptatibus dolor reiciendis, dolore sequi illo fugiat ex ullam, quas repellendus
+                    perferendis eaque ad praesentium dolores autem nemo amet! Laudantium accusantium tenetur facilis
+                    velit. Quibusdam itaque corporis eius sit atque vero consectetur deleniti, fugiat aliquam, rem eaque
+                    ad! Rerum, officia. Aperiam, dolore ratione! Excepturi ullam deleniti obcaecati cupiditate
+                    consequuntur maiores voluptatem cumque, ea ex commodi provident nobis esse aut? Delectus odit
+                    obcaecati explicabo voluptates reprehenderit, molestias, ut amet iure nesciunt magni repellendus
+                    quaerat minus at inventore corporis ipsam itaque ab doloribus error tempora! Iusto debitis
+                    recusandae qui repellendus hic accusamus aliquam iste eligendi nam optio ipsa ex, cupiditate
+                    consequuntur. Eos iure quidem reiciendis ipsa assumenda eveniet numquam officiis aliquid nihil,
+                    eaque, non dolores nam modi perferendis voluptas at!</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- chat bot -->
+    <div class="bot-icon">
+        <img src="images (1).jpeg" alt="">
+
+    </div>
+
+</body>
+
+</html>
